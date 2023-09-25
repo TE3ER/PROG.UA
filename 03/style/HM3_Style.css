@@ -1,0 +1,26 @@
+h1{
+    color: black;
+font-size: 80px;
+font-family: Raleway;
+font-weight: 700;
+line-height: 96px;
+word-wrap: break-word
+}
+
+h3{
+    color: black;
+font-size: 56px;
+font-family: Raleway;
+font-weight: 600;
+line-height: 64px;
+word-wrap: break-word
+}
+
+p{
+    color: black;
+font-size: 32px;
+font-family: Raleway;
+font-weight: 400;
+line-height: 40px;
+word-wrap: break-word
+}
