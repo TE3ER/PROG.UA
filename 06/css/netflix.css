@@ -78,7 +78,7 @@ header {
     width: 564px;
     height: 112px;
     flex-shrink: 0;
- 
+
 }
 
 .TypeFilm {
@@ -225,7 +225,55 @@ span {
     padding-right: 14px;
 }
 
+.Recomend {
+    display: flex;
+}
 
+.Popular {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 144.523%;
+    /* 31.795px */
+    letter-spacing: 2.97px;
+}
+
+.NP {
+    display: flex;
+    margin-left: 815px;
+
+}
+
+.Previous {
+    width: 32.3px;
+    height: 32.3px;
+    flex-shrink: 0;
+    background: transparent;
+    margin-right: 29px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.Previous:hover {
+    color: gray;
+   
+}
+
+.Next {
+    width: 32.3px;
+    height: 32.3px;
+    flex-shrink: 0;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.Next:hover {
+    color: gray;
+}
 
 .Buttons {
     /*position: relative;
@@ -273,6 +321,11 @@ span {
     /* 31.135px */
 }
 
+.AllEpisodes:hover {
+    color: gray;
+    border-color: grey;
+}
+
 .Recomend {
     width: 400px;
     height: 26px;
@@ -297,12 +350,12 @@ span {
 
 .Warning {
     display: flex;
-    justify-content:end;
+    justify-content: end;
     align-items: center;
     width: 100%;
     flex-direction: row-reverse;
     padding: 963px 0 103px 1554px;
-   
+
 
 }
 
