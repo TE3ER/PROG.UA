@@ -12,6 +12,7 @@ section {
     background: #FFF;
     width: 360px;
     margin: 50px auto;
+    padding-left: 10px;
 }
 
 h1 {
@@ -52,6 +53,7 @@ input {
     line-height: normal;
     margin-left: 24px;
     border: 0;
+    padding-left: 20px;
 }
 
 h3 {
@@ -130,8 +132,7 @@ h3 {
 }
 
 .propostion-description {
-    position: absolute;
-    top: 8px;
+    text-align: center;
     width: 150px;
     display: inline-block;
 }
