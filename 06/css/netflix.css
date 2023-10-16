@@ -58,6 +58,7 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 8%;
+    padding-right: 80px;
 
 }
 
@@ -70,6 +71,7 @@ header {
     height: 74px;
     flex-shrink: 0;
     border-radius: 74px;
+   
 }
 
 
@@ -362,10 +364,12 @@ span {
 .BlockRed {
     width: 13%;
     height: 66px;
-    flex-shrink: 0;
     background: #D40D1F;
-    display: flex;
-    justify-content: flex-end;
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+
+    
 
 }
 
