@@ -1,0 +1,427 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+
+
+}
+
+header {
+    width: 65%;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.RoomUS {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 2px;
+
+}
+
+.Category {
+    display: flex;
+    align-items: center;
+}
+.Category .categ::after{
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: orange;
+    margin: 0 auto;
+    border-radius: 100%;
+    display: none;
+}
+.Category .categ:hover::after{
+    display: block;
+}
+.categ {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Nunito Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+.Search {
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+}
+
+.SearchCateg {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Nunito Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding-left: 25px;
+
+}
+
+.Glass {
+    font-size: 20px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    padding-left: 30px;
+}
+
+section {
+    margin: 0 auto;
+}
+
+.Main {
+    display: flex;
+    width: 65%;
+    padding-top: 70px;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 35px;
+
+
+
+}
+
+.ImgR {
+    width: 35%;
+    height: auto;
+}
+
+.Rectangle {
+    width: 411px;
+    height: 533px;
+    flex-shrink: 0;
+}
+
+.Content {
+    width: 97%;
+    padding-left: 100px;
+    padding-top: 30px;
+    /* height: auto;*/
+
+
+}
+
+.FRBorder {
+    border-right: 2px solid black;
+    width: 97%;
+
+
+    height: 380px;
+    flex-shrink: 0;
+
+
+}
+
+.Work {
+
+
+    display: flex;
+    width: 83%;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.OT {
+
+
+    color: #F2994A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 28.8px */
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+
+
+.Modern {
+    width: 553px;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Nunito Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 78px */
+    letter-spacing: 1px;
+    margin: 0;
+    width: 83%;
+
+}
+
+.SBorder {
+
+    width: 188px;
+    height: 6px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #F2994A;
+    margin-top: 50px;
+}
+
+.Lorem {
+
+    width: 421px;
+    color: var(--Gray-2, #4F4F4F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 28.8px */
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+.PaS {
+    display: flex;
+    width: 99%;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.Play {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.IconPlay {
+    width: 85px;
+    height: 85px;
+    flex-shrink: 0;
+    color: white;
+    background-color: #3F9AB7;
+    border-radius: 71px;
+    border: none;
+}
+
+.Watch {
+    width: 118px;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 21.6px */
+    letter-spacing: 1px;
+    margin-left: 21px;
+    margin-top: 30px;
+}
+
+.Messenger {
+
+    width: 18px;
+    height: 18px;
+
+}
+
+.Mes {
+    display: flex;
+    margin-bottom: 18px;
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 100px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mes:hover {
+    background-color: #F2994A;
+}
+
+
+footer {
+    margin: 0 auto;
+   
+}
+
+.Footer1 {
+    min-width: 400px;
+    height: 144px;
+    background-color: #3F9AB7;
+}
+
+.Text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 32px;
+}
+
+.Profile {
+    border-radius: 55px;
+    border: 3px solid #FFF;
+    background-color: #C4C4C4;
+
+}
+
+.Con {
+
+
+    color: var(--white, #FFF);
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Profile1 {
+    position: relative;
+    z-index: 1;
+}
+
+.Profile2 {
+    position: relative;
+    z-index: 2;
+    left: -15px;
+}
+
+.Profile3 {
+    position: relative;
+    z-index: 3;
+    left: -36px;
+}
+
+.text1 {
+    color: var(--white, #FFF);
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:600px) {
+
+    header {
+        width: 100%;
+        row-gap: 25px;
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+
+    .ImgR {
+        position: relative;
+        width: 120px;
+        height: 500px;
+        margin-left: 37px;
+
+    }
+
+    .Rectangle {
+        width: 200px;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Content {
+        position: absolute;
+        width: 97%;
+        padding-left: 10px;
+        padding-top: 320px;
+        margin-left: -21px;
+    }
+
+    .FRBorder {
+        /*flex-direction: column;*/
+        width: 290px;
+        height: 270px;
+        padding-top: 1px;
+        border-right: 1px solid black;
+    }
+
+    .Modern {
+        font-size: 30px;
+    }
+.Lorem{
+    padding-top: 20px;
+    padding-right: 150px;
+    margin-left: -21px;
+}
+    .SBorder {
+        position: relative;
+        font-size: 42px;
+        padding-left: 20px;
+        
+    }
+
+    .PaS {
+        position: absolute;
+    }
+    .Play{
+        margin-top: 84px;
+        margin-left: -21px;
+    }
+    .IconPlay {
+        width: 55px;
+        height: 55px;
+        flex-shrink: 0;
+        color: white;
+        background-color: #3F9AB7;
+        border-radius: 55px;
+        border: none;
+    }
+    .Watch{
+        position: relative;
+        margin-top: 14px;
+        
+    }
+    .Massenger{
+        position: relative;
+        margin-top: 30px;
+        margin-right: 45px;
+    }
+footer{
+    position: relative;
+    padding-top: 300px;
+}
+    .Footer1 {
+        padding-top: 30px;
+    }
+}
