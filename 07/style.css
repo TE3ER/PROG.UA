@@ -38,7 +38,8 @@ header {
     display: flex;
     align-items: center;
 }
-.Category .categ::after{
+
+.Category .categ::after {
     content: '';
     display: block;
     width: 8px;
@@ -48,9 +49,11 @@ header {
     border-radius: 100%;
     display: none;
 }
-.Category .categ:hover::after{
+
+.Category .categ:hover::after {
     display: block;
 }
+
 .categ {
     color: #000;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -267,20 +270,31 @@ section {
     align-items: center;
 }
 
-.Mes:hover {
+/*.Mes:hover {
     background-color: #F2994A;
+    color: white;
 }
-
+.fa-brands:hover {
+    color: white;
+    
+}*/
 
 footer {
     margin: 0 auto;
-   
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    background-color: #3F9AB7;
+
 }
 
 .Footer1 {
-    min-width: 400px;
-    height: 144px;
-    background-color: #3F9AB7;
+    display: flex;
+    justify-content: center;
+    width: 16%;
+
+
 }
 
 .Text {
@@ -336,10 +350,118 @@ footer {
     padding-right: 10px;
 }
 
-@media screen and (max-width:600px) {
+/*@media screen and (max-width: 768px) {
+    header {
+        width: 75%;
+        row-gap: 25px;
+        margin-bottom: 0;
+        
+    }
+
+    .ImgR {
+        position: relative;
+        width: 120px;
+        height: 500px;
+        margin-left: -37px;
+       
+
+    }
+.Content{
+    margin-top: -272px ;
+    margin-left: 115px;
+}
+    .Rectangle {
+        width: 300px;
+        height: 350px;
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
+    .FRBorder {
+       
+        width: 290px;
+        height: 270px;
+        padding-top: 1px;
+        border-right: 1px solid black;
+    }
+
+    .Modern {
+        font-size: 30px;
+    }
+
+    .Lorem {
+        padding-top: 20px;
+        padding-right: 204px;
+        margin-left: -25px;
+    }
+
+    .SBorder {
+        position: relative;
+        font-size: 42px;
+        padding-left: 20px;
+
+    }
+
+    .PaS {
+        position: absolute;
+    }
+
+    .Play {
+        margin-top: 169px;
+        margin-left: -347px;
+    }
+
+    .IconPlay {
+        width: 75px;
+        height: 75px;
+        flex-shrink: 0;
+        color: white;
+        background-color: #3F9AB7;
+        border-radius: 55px;
+        border: none;
+    }
+
+    .Watch {
+        position: relative;
+        margin-top: 32px;
+
+    }
+
+    .Massenger {
+        position: relative;
+        margin-top: 128px;
+        margin-right: 466px;
+    }
+
+    footer {
+        
+
+        margin-top: 96px;
+
+    }
+
+    .Footer1 {
+        width: 300px;
+
+        padding: 3% 0;
+    }
+
+    
+}
+*/
+
+
+
+
+
+@media screen and (max-device-width: 375px) {
+
 
     header {
-        width: 100%;
+        width: 75%;
         row-gap: 25px;
         margin-bottom: 0;
         flex-direction: column;
@@ -349,7 +471,7 @@ footer {
         position: relative;
         width: 120px;
         height: 500px;
-        margin-left: 37px;
+        margin-left: 9px;
 
     }
 
@@ -362,14 +484,14 @@ footer {
 
     .Content {
         position: absolute;
-        width: 97%;
+        width: 75%;
         padding-left: 10px;
         padding-top: 320px;
-        margin-left: -21px;
+        margin-left: -53px;
     }
 
     .FRBorder {
-        /*flex-direction: column;*/
+        flex-direction: column;
         width: 290px;
         height: 270px;
         padding-top: 1px;
@@ -379,25 +501,29 @@ footer {
     .Modern {
         font-size: 30px;
     }
-.Lorem{
-    padding-top: 20px;
-    padding-right: 150px;
-    margin-left: -21px;
-}
+
+    .Lorem {
+        padding-top: 20px;
+        padding-right: 204px;
+        margin-left: -25px;
+    }
+
     .SBorder {
         position: relative;
         font-size: 42px;
         padding-left: 20px;
-        
+
     }
 
     .PaS {
         position: absolute;
     }
-    .Play{
-        margin-top: 84px;
+
+    .Play {
+        margin-top: 132px;
         margin-left: -21px;
     }
+
     .IconPlay {
         width: 55px;
         height: 55px;
@@ -407,21 +533,39 @@ footer {
         border-radius: 55px;
         border: none;
     }
-    .Watch{
+
+    .Watch {
         position: relative;
         margin-top: 14px;
-        
+
     }
-    .Massenger{
+
+    .Massenger {
         position: relative;
-        margin-top: 30px;
-        margin-right: 45px;
+        margin-top: 88px;
+        margin-right: 4px;
     }
-footer{
-    position: relative;
-    padding-top: 300px;
-}
+
+
+
+   /* footer {
+        width: 375px;
+
+        margin-top: 250px;
+
+    }
+
     .Footer1 {
-        padding-top: 30px;
+        width: 300px;
+
+        padding: 3% 0;
+    }*/
+
+    
+
+    .Text {
+        margin-left: -81px;
     }
+
+    
 }
