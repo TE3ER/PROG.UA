@@ -250,7 +250,7 @@ section {
     margin-top: 30px;
 }
 
-.Messenger {
+.Massenger {
 
     width: 18px;
     height: 18px;
@@ -453,7 +453,116 @@ footer {
 }
 */
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        width: 75%;
+        row-gap: 25px;
+        margin-bottom: 0;
+        flex-direction: column;
+        margin-left: -10px;
+    }
+    .Rectangle {
+        width: 200px;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .ImgR {
+        position: relative;
+        width: 177px;
+        height: 496px;
+        margin-left: -99px;
+
+    }
+    .PaS {
+        position: absolute;
+        margin-right: 0px;
+    }
+    .FRBorder {
+        border-right: 2px solid black;
+        width: 80%;
+    
+    
+        height: 380px;
+        flex-shrink: 0;
+    
+    
+    }
+
+    .Modern {
+        width: 485px;
+        color: #000;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Nunito Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        /* 78px */
+        letter-spacing: 1px;
+        margin: 0;
+        width: 65%;
+      
+    
+    }
+    .Content {
+        position: absolute;
+        width: 60%;
+        padding-left: 121px;
+        margin-top: -158px;
+        margin-left: 5px;
+    }
+    /*.SBorder {
+
+        width: 188px;
+        height: 6px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #F2994A;
+        margin-top: 50px;
+    }*/
+    
+    .Lorem {
+
+        width: 485px;
+        color: var(--Gray-2, #4F4F4F);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%;
+        /* 28.8px */
+        letter-spacing: 1px;
+        padding-top: 80px;
+        margin-top: 21px ;
+        margin-left: -221px;
+    }
+    .Play {
+        display: flex;
+        margin-bottom: 30px;
+        margin-left: -222px;
+        margin-top: 50px;
+    }
+    .Massenger {
+
+        width: 18px;
+        height: 18px;
+        margin-top: -166px;
+        margin-right: 182px;
+    
+    }
+    
+    
+    .Footer1 {
+        display: flex;
+        justify-content: center;
+        width: 16%;
+    
+    
+    }
+  }
 
 
 
@@ -471,13 +580,13 @@ footer {
         position: relative;
         width: 120px;
         height: 500px;
-        margin-left: 9px;
+        margin-left: -40px;
 
     }
 
     .Rectangle {
-        width: 200px;
-        height: 250px;
+        width: 80px;
+        height: 133px;
         align-items: center;
         justify-content: center;
     }
@@ -492,9 +601,10 @@ footer {
 
     .FRBorder {
         flex-direction: column;
-        width: 290px;
+        width: 214px;
         height: 270px;
-        padding-top: 1px;
+        margin-top: -417px;
+        margin-left: 95px;
         border-right: 1px solid black;
     }
 
@@ -503,16 +613,19 @@ footer {
     }
 
     .Lorem {
-        padding-top: 20px;
-        padding-right: 204px;
-        margin-left: -25px;
+        
+        padding-right: 146px;
+        margin-left: -110px;
     }
 
     .SBorder {
-        position: relative;
-        font-size: 42px;
-        padding-left: 20px;
 
+        width: 188px;
+        height: 6px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #F2994A;
+        margin-top: -7px;
     }
 
     .PaS {
@@ -520,7 +633,7 @@ footer {
     }
 
     .Play {
-        margin-top: 132px;
+        margin-top: 180px;
         margin-left: -21px;
     }
 
@@ -542,8 +655,8 @@ footer {
 
     .Massenger {
         position: relative;
-        margin-top: 88px;
-        margin-right: 4px;
+        margin-top: 120px;
+        margin-right: -45px;
     }
 
 
