@@ -254,6 +254,7 @@ section {
 
     width: 18px;
     height: 18px;
+    margin-top: -72px;
 
 }
 
@@ -270,14 +271,13 @@ section {
     align-items: center;
 }
 
-/*.Mes:hover {
+
+.Mes:hover {
     background-color: #F2994A;
-    color: white;
 }
-.fa-brands:hover {
-    color: white;
-    
-}*/
+.TFI:hover{
+    fill: white;
+}
 
 footer {
     margin: 0 auto;
@@ -655,8 +655,8 @@ footer {
 
     .Massenger {
         position: relative;
-        margin-top: 120px;
-        margin-right: -45px;
+    
+        margin-right: -20px;
     }
 
 
