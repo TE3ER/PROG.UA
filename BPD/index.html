@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Калькулятор в класі лишків</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="calculator">
+    <label for="moduleInput">Модуль класів лишків (m):</label>
+    <input type="number" id="moduleInput">
+
+    <label for="inputA">Одномісна (a):</label>
+    <input type="number" id="inputA">
+
+    <label for="inputB">Двомісна (b):</label>
+    <input type="number" id="inputB">
+
+    <label for="result">Результат (c):</label>
+    <input type="text" id="result" readonly>
+
+    <button onclick="calculate('+')">+</button>
+    <button onclick="calculate('-')">-</button>
+    <button onclick="clearFields()">Clear</button>
+
+    <p>Прізвище розробника: Макаренко Ростислав Валерійович ПІ-422(Б)</p>
+</div>
+
+
+</body>
+</html>
